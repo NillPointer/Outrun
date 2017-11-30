@@ -1,8 +1,9 @@
 #include "core.hpp"
 
-void drawQuad(sf::RenderWindow &window, sf::Vector2f p1, float w1, sf::Vector2f p2, float w2) {
+void drawQuad(sf::RenderWindow &window, sf::Vector2f p1, float w1, sf::Vector2f p2, float w2, sf::Color colour) {
 	sf::ConvexShape quad;
 	quad.setPointCount(4);
+	quad.setFillColor(colour);
 	quad.setPoint(0, p1 - sf::Vector2f(w1, 0));
 	quad.setPoint(1, p1 + sf::Vector2f(w1, 0));
 	quad.setPoint(2, p2 + sf::Vector2f(w2, 0));

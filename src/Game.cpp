@@ -7,6 +7,7 @@
 Road road;
 
 Game::Game() : window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Outrun") {
+	camera.y = -1.2f;
 	road.generate();
 }
 
@@ -69,12 +70,12 @@ void Game::drawSquare(sf::RenderWindow &window, const std::vector<sf::Vector3f> 
 
 
 void Game::render() {
-	window.clear(sf::Color::Black);
+	window.clear(sf::Color(0, 127, 255, 255));
 
 	float d{ 1.0f / tanf((fov*(3.14f / 180) )) / 2 };
 	camera.z = -d;
 
-	std::cout << "Camera Height  : " << camera.y << std::endl;
+	std::cout << "Fov  : " << fov << std::endl;
 
 	road.draw(*this);
 

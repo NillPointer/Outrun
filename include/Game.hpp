@@ -14,7 +14,7 @@ public:
 
 	sf::RenderWindow window;
 
-	float fov{ 30.0f };
+	float fov{ 10.0f };
 	sf::Vector3f camera{ 0.0f, 0.0f, 0.0f };
 
 	sf::Vector2f project(const sf::Vector3f &world, sf::Vector3f &camera, float d);
