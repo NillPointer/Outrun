@@ -1,6 +1,9 @@
-﻿  Game.cpp
+﻿  core.cpp
+  Road.cpp
   Generating Code...
-  Skipping... (no relevant changes detected)
+  Compiling...
   main.cpp
+  Game.cpp
+  Generating Code...
   MyOutrun.vcxproj -> C:\Users\Oleksandr\Desktop\WIT\Year 3\Semester 1\Console Game Development\workspace\MyOutrun\Debug\MyOutrun.exe
   MyOutrun.vcxproj -> C:\Users\Oleksandr\Desktop\WIT\Year 3\Semester 1\Console Game Development\workspace\MyOutrun\Debug\MyOutrun.pdb (Partial PDB)

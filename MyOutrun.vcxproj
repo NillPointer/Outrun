@@ -19,12 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\core.cpp" />
     <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Road.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\core.hpp" />
     <ClInclude Include="include\Game.hpp" />
+    <ClInclude Include="include\Road.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8371a20a-4c52-4168-b456-6efe4e8caeae}</ProjectGuid>
